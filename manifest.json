@@ -1,0 +1,81 @@
+{
+  "project": {
+    "name": "3C Migration Toolkit",
+    "shortName": "MT",
+    "description": "Modular toolkit for planning, executing, validating, monitoring, recovering, and reporting on enterprise medical imaging migrations.",
+    "version": "0.1.0",
+    "phase": 0,
+    "status": "Architecture",
+    "owner": "3C Care Systems LLC",
+    "maintainer": "Bobby Rufener",
+    "started": "2026-06-29",
+    "license": "Internal Use",
+    "repositoryType": "OneDrive"
+  },
+
+  "documents": [
+{
+  "id": "MT-0001",
+  "title": "Migration Toolkit Architecture",
+  "version": "0.1",
+  "status": "Draft",
+  "folder": "00 - Project",
+  "filename": "MT-0001 - Migration Toolkit Architecture v0.1 Draft.md",
+  "dependsOn": []
+}	
+    {
+      "id": "MT-0002",
+      "title": "Technical Design Specification",
+      "version": "0.1",
+      "status": "Draft",
+      "folder": "00 - Project",
+      "filename": "MT-0002 - Technical Design Specification.md",
+      "dependsOn": [
+        "MT-0001"
+      ]
+    }
+  ],
+
+  "modules": [],
+
+  "profiles": [],
+
+  "caseStudies": [],
+
+  "runbooks": [],
+
+  "dependencies": [
+    {
+      "name": "PowerShell",
+      "required": true,
+      "minimumVersion": "7.0"
+    },
+    {
+      "name": "SQL Server",
+      "required": true
+    },
+    {
+      "name": "DCM4CHE Toolkit",
+      "required": false,
+      "minimumVersion": "5.x"
+    }
+  ],
+
+  "releases": [
+    {
+      "version": "0.1.0",
+      "date": "2026-06-29",
+      "title": "Phase 0 Initialized",
+      "notes": [
+        "Project structure created.",
+        "Architecture document completed.",
+        "Technical Design Specification completed."
+      ]
+    }
+  ],
+
+  "roadmap": {
+    "currentPhase": 0,
+    "nextDocument": "MT-0003"
+  }
+}
